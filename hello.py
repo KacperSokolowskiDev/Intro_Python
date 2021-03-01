@@ -7,5 +7,6 @@ print(a)
 b = 5 // 2
 print(b)
 
-name = input('What is your name ?\n')
-print('Hi, %s.' % name)
+name = input('Enter your name: ')
+age = input('Enter your age: ')
+print('Hi ' + name + ', you are ' + age)
