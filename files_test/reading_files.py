@@ -1,6 +1,6 @@
 
 # Reading a file
-manga_file = open("manga.txt", "r")
+manga_file = open("./files_test/manga.txt", "r")
 
 # check if file is readable, returns boolean
 print(manga_file.readable())
