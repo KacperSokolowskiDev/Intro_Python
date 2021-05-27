@@ -8,6 +8,9 @@ number_grid = [
 ]
 
 for row in number_grid:
+    print(row)
+
+for row in number_grid:
     for col in row:
         print(col)
 
